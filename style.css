@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+        
+body {
+    background-color: white;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    }
+        
+h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #333;
+    }
+        
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+        }
+        
+.elemento {
+    width: 300px;
+    padding: 1.5rem;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+        }
+        
+h2 {
+    margin-bottom: 1rem;
+    color: #444;
+    }
+        
+.btn {
+    padding: 12px 24px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+        
+.btn:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+    }
+        
+.btn:active {
+    background-color: #3d8b40;
+    transform: scale(0.98);
+    }
+        
+.card {
+    width: 200px;
+    height: 120px;
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    border-radius: 8px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    }
+        
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+    }
+        
+.slider {
+    width: 200px;
+    height: 50px;
+    background-color: #3498db;
+    border-radius: 25px;
+    margin: 0 auto;
+    transition: transform 0.5s ease-in-out, background-color 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    }
+        
+.slider:hover {
+    transform: translateX(30px);
+    background-color: #2980b9;
+    }
+        
+    
